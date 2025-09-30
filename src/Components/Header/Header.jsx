@@ -5,7 +5,7 @@ import { Link,NavLink } from "react-router";
 const Header = () => {
   return (
     <div>
-      <h3 className='text-2xl font-bold'Nav>This is header</h3>
+      <h3 className='text-2xl font-bold'>This is header</h3>
       {/* <nav>
         <a href="/">Home</a>
         <a href="/Mobiles">Mobiles</a>
@@ -17,6 +17,8 @@ const Header = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/Mobiles">Mobiles</NavLink>
         <NavLink to="/Laptop">Laptops</NavLink>
+        <NavLink to="/User">User</NavLink>
+        <NavLink to="/User2">User-2</NavLink>
       </nav>
     </div>
   );
