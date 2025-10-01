@@ -3,7 +3,7 @@ import UserData from '../UserData.jsx/UserData';
 
 const User2 = ({userPromise}) => {
     const users = use(userPromise);
-    console.log(users);
+    // console.log(users);
     return (
         <div>
             <h2>This is lnside loading</h2>

@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router';
 
 const User = () => {
     const users = useLoaderData();
-    console.log(users);
+    // console.log(users);
     return (
         <div>
             <h2 className='text-2xl font-semibold'>This is User Section</h2>

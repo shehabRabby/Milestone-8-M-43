@@ -76,8 +76,14 @@ const router = createBrowserRouter([
       {
         path: "albums/:albumsID",
         loader: ({ params }) =>
-          fetch(`https://jsonplaceholder.typicode.com/albums/${params.albumsID}`),
+          fetch(
+            `https://jsonplaceholder.typicode.com/albums/${params.albumsID}`
+          ),
         Component: PhotoDetail,
+      },
+      {
+        path: "*",
+        element: <h3 className="text-3xl font-bold">Not Found: 404 Status</h3>,
       },
     ],
   },
