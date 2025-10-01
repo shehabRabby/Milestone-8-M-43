@@ -1,5 +1,5 @@
 import React from "react";
-import { Link,NavLink } from "react-router";
+import { NavLink } from "react-router";
 
 
 const Header = () => {
@@ -19,6 +19,8 @@ const Header = () => {
         <NavLink to="/Laptop">Laptops</NavLink>
         <NavLink to="/User">User</NavLink>
         <NavLink to="/User2">User-2</NavLink>
+        <NavLink to="/posts">Posts</NavLink>
+        <NavLink to="/Albums">Albums</NavLink>
       </nav>
     </div>
   );

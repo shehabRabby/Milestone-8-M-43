@@ -5,10 +5,12 @@ import { useLoaderData } from 'react-router';
 const UserDetails = () => {
 
     const user = useLoaderData();
-    console.log(user)
+    const {website,name} = user;
     return (
-        <div>
+        <div className='border-1 bg-amber-200 p-10'>
             <p>User Details Here</p>
+            <h2>Name: {name}</h2>
+            <h2>Website: {website}</h2>
         </div>
     );
 };
